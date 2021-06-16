@@ -63,32 +63,7 @@ function draw() {
  
 }
 
-/*function keyPressed() {
-	
-  	if (keyCode === UP_ARROW) 
-  	{
-    	if(keyIsDown(70))
-    	{
-    		
-    		launchingForce=launchingForce+5;
-    	}
-    
-  	}
-  	if (keyCode === DOWN_ARROW) 
-  	{
-    	if(keyIsDown(70))
-    	{
-    		
-    		launchingForce=launchingForce-5;
-    	}
-    
-  	}
-  	if (keyCode === 13) 
-  	{
-  	Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:launchingForce,y:-launchingForce});
-  	}
-  //console.log(launchingForce);
-}*/
+
 
 function mouseDragged()
 {
